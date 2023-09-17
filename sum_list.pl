@@ -15,4 +15,4 @@ sum_list([], 0).
 % Рекурсивный случай.
 sum_list([Head|Tail], Sum) :-
     sum_list(Tail, TailSum),
-    Sum is Head + TailSum.
+    Sum is Head + TailSum. % Sum = Head + TailSum.
